@@ -1,10 +1,7 @@
 <?= $this->extend('layouts/main') ?>
 <?= $this->section('content') ?>
-<section class="page-intro compact">
-    <p class="kicker">Account directory</p>
-    <h1>Customer Accounts</h1>
-    <p>Temporary customer records for this first version.</p>
-</section>
+<h1>Customer Accounts</h1>
+<p>Customer records from the database.</p>
 <section class="table-wrap" aria-label="Customer account records">
     <table>
         <thead><tr><th scope="col">Full name</th><th scope="col">Email</th><th scope="col">Phone</th></tr></thead>
